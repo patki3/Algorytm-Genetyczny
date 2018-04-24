@@ -13,11 +13,10 @@ from klasy import *
 # print("mutacja")
 # print(populacja)
 
-pojemnosc=7
+pojemnosc=10
 tablica_wag=[2,5,1,'abc',0,3]
 
 try:
-
     populacja=Populacja(10,6)
     for i in range(0,20):
         populacja.selekcja(pojemnosc,tablica_wag)
