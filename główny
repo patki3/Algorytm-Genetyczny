@@ -10,8 +10,6 @@ from klasy import *
 # print("krzyzowanie")
 # print(populacja)
 # populacja.mutacja(0.1)
-# print("mutacja")
-# print(populacja)
 
 pojemnosc=10
 tablica_wag=[2,5,1,'abc',0,3]
