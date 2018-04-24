@@ -1,0 +1,36 @@
+from klasy import *
+
+# populacja = Populacja(6, 5)
+# print("populacja")
+# print(populacja)
+# populacja.selekcja(6, [1, 2, 3, 4, 5])
+# print("selekcja")
+# print(populacja)
+# populacja.krzyzowanie(0.7)
+# print("krzyzowanie")
+# print(populacja)
+# populacja.mutacja(0.1)
+# print("mutacja")
+# print(populacja)
+
+pojemnosc=7
+tablica_wag=[2,5,1,'abc',0,3]
+
+try:
+
+    populacja=Populacja(10,6)
+    for i in range(0,20):
+        populacja.selekcja(pojemnosc,tablica_wag)
+
+        populacja.krzyzowanie(0.7)
+        populacja.mutacja(0.1)
+        print(populacja.najlepszy)
+
+    suma=0
+    for i in range(0,6):
+        suma+=tablica_wag[i]*populacja.najlepszy.tablica[i]
+    print("SUMA=" + str(suma))
+except AttributeError:
+    print("Ujemna waga!!!")
+except:
+    print("Wartosc nienumeryczna")
