@@ -1,17 +1,5 @@
 from klasy import *
 
-# populacja = Populacja(6, 5)
-# print("populacja")
-# print(populacja)
-# populacja.selekcja(6, [1, 2, 3, 4, 5])
-# print("selekcja")
-# print(populacja)
-# populacja.krzyzowanie(0.7)
-# print("krzyzowanie")
-# print(populacja)
-# populacja.mutacja(0.1)
-# print("mutacja")
-# print(populacja)
 
 pojemnosc=10
 tablica_wag=[2,5,1,'abc',0,3]
