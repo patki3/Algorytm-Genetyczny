@@ -31,6 +31,6 @@ try:
         suma+=tablica_wag[i]*populacja.najlepszy.tablica[i]
     print("SUMA=" + str(suma))
 except AttributeError:
-    print("Ujemna waga!!!")
+    print("Błąd!! Ujemna waga!!!")
 except:
     print("Wartosc nienumeryczna")
